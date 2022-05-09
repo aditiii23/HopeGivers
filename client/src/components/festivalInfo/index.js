@@ -13,8 +13,8 @@ export default function FestivalInfo(props) {
   const [isVoted, setIsVoted] = React.useState(false)
   const [isLoaded, setIsLoaded] = React.useState(true)
   const [showAddFestival, setShowAddFestival] = React.useState("none")
-  const [formEmail, setFormEmail] = React.useState("Name")
-  const [formMessage, setFormMessage] = React.useState("0")
+  const [formEmail, setFormEmail] = React.useState("Enter Registered Email")
+  const [formMessage, setFormMessage] = React.useState("Enter Request Message")
 
   async function addCoolness() {
     var addCoolnessObj = {

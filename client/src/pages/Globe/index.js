@@ -14,12 +14,13 @@ export default function Globe() {
   const [markers, setMarkers] = React.useState([])
   const [isLoaded, setIsLoaded] = React.useState(false)
   const [showAddFestival, setShowAddFestival] = React.useState("none")
-  const [formTitle, setFormTitle] = React.useState("Name")
+  const [formTitle, setFormTitle] = React.useState("Item Title")
   const [formLatitude, setFormLatitude] = React.useState("0")
   const [formLongitude, setFormLongitude] = React.useState("0")
   const [image, setImage] = React.useState("sample")
   const [imageUrl, setImageUrl] = React.useState("no url")
-  const [formDescription, setFormDescription] = React.useState("Name")
+  const [formDescription, setFormDescription] =
+    React.useState("Add Description")
 
   React.useEffect(() => {
     ;(async () => {
