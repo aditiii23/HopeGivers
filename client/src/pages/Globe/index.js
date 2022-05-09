@@ -142,12 +142,12 @@ export default function Globe() {
 
       <div className="modal" style={{ display: showAddFestival }}>
         <div className="form">
-          <div className="form-title">Add Clothes you wish to donate 🧣</div>
+          <div className="form-title">Add items you wish to donate 🧣</div>
           <div className="form-content">
             <label>Title:</label>
             <input
               type="text"
-              placeholder="Type in your registered email"
+              placeholder="Title of item"
               onChange={(e) => {
                 e.preventDefault()
                 setFormTitle(e.target.value)
@@ -157,7 +157,7 @@ export default function Globe() {
             <label>Latitude (Add - for South):</label>
             <input
               type="text"
-              placeholder="Type in your registered email"
+              placeholder="Type in your geographical Latitude"
               onChange={(e) => {
                 e.preventDefault()
                 setFormLatitude(e.target.value)
@@ -167,7 +167,7 @@ export default function Globe() {
             <label>Longitude (Add - for West):</label>
             <input
               type="text"
-              placeholder="Type in your registered email"
+              placeholder="Type in your geogaphical Longitude"
               onChange={(e) => {
                 e.preventDefault()
                 setFormLongitude(e.target.value)
@@ -179,7 +179,7 @@ export default function Globe() {
             <label>Description:</label>
             <input
               type="text"
-              placeholder="Type in your password"
+              placeholder="Describe your item"
               onChange={(e) => {
                 e.preventDefault()
                 setFormDescription(e.target.value)
@@ -215,7 +215,7 @@ export default function Globe() {
             setShowAddFestival("flex")
           }}
         >
-          Add Clothes
+          Add Items
         </div>
       )}
     </>
