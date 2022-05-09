@@ -14,11 +14,11 @@ export default function Home() {
   const [currIndex, setCurrIndex] = React.useState(0)
   const [showLogin, setShowLogin] = React.useState("none")
   const [showRegister, setShowRegister] = React.useState("none")
-  const [registerName, setRegisterName] = React.useState("Name")
-  const [registerEmail, setRegisterEmail] = React.useState("Name")
-  const [registerPassword, setRegisterPassword] = React.useState("Name")
-  const [loginEmail, setLoginEmail] = React.useState("Name")
-  const [loginPassword, setLoginPassword] = React.useState("Name")
+  const [registerName, setRegisterName] = React.useState("Full Name")
+  const [registerEmail, setRegisterEmail] = React.useState("Email ID")
+  const [registerPassword, setRegisterPassword] = React.useState("none")
+  const [loginEmail, setLoginEmail] = React.useState("Registered email")
+  const [loginPassword, setLoginPassword] = React.useState("none")
   const user = loggedInUser()
 
   function increase() {
@@ -219,8 +219,8 @@ export default function Home() {
           <div className="form-content">
             <label>Name:</label>
             <input
-              type="text"
-              placeholder="Type in your full name"
+              type="name"
+              placeholder="Full Name"
               onChange={(e) => {
                 e.preventDefault()
                 setRegisterName(e.target.value)
