@@ -1,12 +1,14 @@
-# HopeGivers - The Best Christmas Smile you can Gift 🎁
+# HopeGivers - The Best Smile you can Gift 🎁
 
 ## 💡Inspiration
 
-- ☃️ Winter is a season of🎄 Holidays and Gifts! But the case is drastically different for the underprivileged section of society. According to the statistics, nearly 4.8 million deaths are caused due to extreme cold. Many people don't even have proper warm clothes to protect them from the frostbiting cold.
+- According to the statistics, nearly 4.8 million deaths are caused due to extreme cold. Many people don't even have proper warm clothes to protect them from the frostbiting cold.
 
 - 🧣 On the other hand, we generally look for new styles and fashionable sweaters, jackets even boots every year. And in turn, discard the old clothes which can be used by the needy.
 
 - 🌱 Nowadays, we don't find pure woollen garments easily. Instead, they are mixed with synthetic fibres. On throwing it away, the entire thing will take forever to biodegrade. Hence, just throwing away the garments is harmful to nature as well.
+
+- Not even clothes, one can donate his toys and books as well from this website. This could be extremely joyous for small children and to the ones as well who want to study and accomplish much more in their lives!
 
 ---
 
@@ -18,20 +20,20 @@ HopeGivers is a web platform where you can upload and donate your used and disca
 
 - ⬆️ **Upload**: It provides a platform, where people can upload their discarded winter wear for the needy person or the donation centres around them to get contacted.
 
-![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/56017960/147406929-7acf9e82-3020-4e6d-b24b-b82eea8a6e8d.gif)
+![LaunchPage](https://user-images.githubusercontent.com/56069235/176602073-074689ba-8b8b-43aa-8ec1-b26ae278f4af.png)
 
 - 🔍 **Explore**: A unique 3D Globe UI displaying items to be donated for people to determine location easily and request.
 
-![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/56017960/147406973-82d023c6-e758-4495-94cb-a6ba41de0fa9.gif)
+![results_globe](https://user-images.githubusercontent.com/56069235/176602038-a8eac243-485e-4697-bb19-e07d54387304.png)
+
+![request](https://user-images.githubusercontent.com/56069235/176602185-40ea8b60-f784-4e73-931a-d4040cc7b8d5.png)
 
 - 💙 **Donation Centers**: If someone doesn't wish to donate individually, they can contact other donation organizations. A single page displaying contact details of a few popular donation centres.
-  ![image](https://user-images.githubusercontent.com/56017960/147406905-430e23b0-0ca3-433f-a71d-6766776e50bb.png)
+![donation_centres](https://user-images.githubusercontent.com/56069235/176602124-e5c8400e-acd7-4cab-8a77-641a529f0e2e.png)
 
 ### Architecture:
 
 The website is enabled to perform complete transaction cycle for a user such as **Register, Email Verification, Add/Delete Items and Logout**. There are also routes protected by both backend and frontend, to minimize unauthorized access (Access with invalid email, no login, wrong password). I have used JWT Tokens for Authentication.
-
-![Screenshot from 2021-12-26 11-58-41](https://user-images.githubusercontent.com/56017960/147407073-4f18c330-6a24-4edd-bdff-f7a626f4968e.png)
 
 ---
 
@@ -58,8 +60,7 @@ The website is enabled to perform complete transaction cycle for a user such as 
 
 ## Accomplishments that I'm proud of 😇
 
-- It has to be time management. I joined the Hackathon a bit late and was a solo participant. I finished the complete backend and the frontend in the time frame. Submitting the project itself is an achievement for me.
-- Implementing the Globe UI. Since I am most comfortable in Backend Development, I always had in mind to come out of my comfort zone. This time I tried to implement a decent UI along with a twist to the conventional 2D UI. So, I'm pretty happy that my project's design has come out to be better than I had expected.
+Implementing the Globe UI. Since I am most comfortable in Backend Development, I always had in mind to come out of my comfort zone. This time I tried to implement a decent UI along with a twist to the conventional 2D UI. So, I'm pretty happy that my project's design has come out to be better than I had expected.
 
 ---
 
@@ -71,7 +72,7 @@ The website is enabled to perform complete transaction cycle for a user such as 
 
 ---
 
-## What's next for HopeGivers- The Best Christmas Smile you can Gift :)
+## What's next for HopeGivers- The Best Smile you can Gift :)
 
 A lot of things can be done with this project.
 
