@@ -2,11 +2,12 @@
 
 ## 💡Inspiration
 
-- According to the statistics, nearly 4.8 million deaths are caused due to extreme cold. Many people don't even have proper warm clothes to protect them from the frostbiting cold.
+- As we all know, there are a lot of people who die due to a lack of warm clothes in
+winters and are in search of shade and thin cotton clothes in the summer season. We all can be a helping hand in such people’s life who suffer in these harsh weather conditions, be it summer or winter.
 
-- 🧣 On the other hand, we generally look for new styles and fashionable sweaters, jackets even boots every year. And in turn, discard the old clothes which can be used by the needy.
+- If we come to books, then also there is a great issue. Students keep on buying books and sell them for money later and those are left for nothing but only to bathe with dust, but if one thinks, those books can be donated to someone who is willing to become something in his life and wants to achieve his goals. 
 
-- 🌱 Nowadays, we don't find pure woollen garments easily. Instead, they are mixed with synthetic fibres. On throwing it away, the entire thing will take forever to biodegrade. Hence, just throwing away the garments is harmful to nature as well.
+- Nowadays, we don't find the best quality garments easily. Instead, they are mixed with synthetic fibres. On throwing it away, the entire thing will take forever to biodegrade. Hence, just throwing away the garments is harmful to nature as well.
 
 - Not even clothes, one can donate his toys and books as well from this website. This could be extremely joyous for small children and to the ones as well who want to study and accomplish much more in their lives!
 
@@ -14,11 +15,11 @@
 
 ## ⚙️ What it does?
 
-HopeGivers is a web platform where you can upload and donate your used and discarded winter wears for the underprivileged. Either you will be contacted by Donation Centres or somebody in need of the items.
+HopeGivers is a web platform where you can upload and donate your used and discarded garrments, toys and books for the underprivileged. Either you will be contacted by Donation Centres or somebody in need of the items.
 
 ### Features:
 
-- ⬆️ **Upload**: It provides a platform, where people can upload their discarded winter wear for the needy person or the donation centres around them to get contacted.
+- ⬆️ **Upload**: It provides a platform, where people can upload their discarded items for the needy person or the donation centres around them to get contacted.
 
 ![LaunchPage](https://user-images.githubusercontent.com/56069235/176602073-074689ba-8b8b-43aa-8ec1-b26ae278f4af.png)
 
@@ -54,7 +55,7 @@ The website is enabled to perform complete transaction cycle for a user such as 
 
 ❗️Enabling image upload: Initially, I was uploading the image in the website directory only. Therefore, the project got too large in size. Also, it was not a scalable solution. Then after hours of scanning the Internet, I found the correct way to use _Cloudinary_. And then instead of saving the blob, I saved the link in the schema.
 
-❗️Deployment configurations for Heroku: The Website crashed multiple times on deployment. Then I realized the problem was that I was not configuring the environment variables correct. Also, I was hard coding the PORT value which resulted in errors.
+❗️Deployment configurations for Heroku: The Website crashed multiple times on deployment and is on maintenance as nodemailer is to replaced with Google Oauth.
 
 ---
 
